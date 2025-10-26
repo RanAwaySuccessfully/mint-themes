@@ -1,5 +1,19 @@
-Adding a Mint-Y theme
-=====================
+# Ran's Unofficial Mint-Y Colors
+
+## Setup dependencies:
+
+```
+sudo apt install optipng
+python3 -m venv ./.venv
+source ./.venv/bin/activate
+pip3 install pysassc
+```
+
+## Install final themes:
+
+Copy theme folder(s) to `~/.themes`.
+
+# Adding a Mint-Y theme
 
 1. Add new colors to `constants.py`
 2. Add new hue to `colorize.py`
